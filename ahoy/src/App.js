@@ -10,7 +10,10 @@ function App() {
       <Jumbotron />
       <Wrapper />
       <ShipCard 
-      image={ships.image}
+      image={ships[0].image}
+      />
+      <ShipCard 
+      image={ships[1].image}
       />
     </div>
   )
