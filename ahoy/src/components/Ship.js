@@ -2,11 +2,19 @@ import React from "react";
 
 function ShipDiv() {
     return (
-      <div className="card text-left">
+      <div class="row">
+        <div className="card text-left">
         <div className="img-container">
           <img src="https://i.pinimg.com/236x/4f/35/c7/4f35c77d8d429e067ab7aa66878009f6.jpg" alt=""></img>
         </div>
       </div>
+      <div className="card text-left">
+      <div className="img-container">
+        <img src="https://i.pinimg.com/236x/4f/35/c7/4f35c77d8d429e067ab7aa66878009f6.jpg" alt=""></img>
+      </div>
+    </div>
+    </div>
+
     );
 }
 

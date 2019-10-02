@@ -1,12 +1,17 @@
 import React from 'react';
-import ShipDiv from "./components/Ship";
 import Jumbotron from './components/Jumbotron';
+import Wrapper from './components/Wrapper';
+import ShipCard from './components/ShipCard'
+import ships from './ships.json';
 
 function App() {
   return (
     <div className="container">
       <Jumbotron />
-      <ShipDiv />
+      <Wrapper />
+      <ShipCard 
+      image={ships.image}
+      />
     </div>
   )
 }
