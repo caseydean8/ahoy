@@ -5,7 +5,16 @@ function ShipCard(props) {
   return (
     <div className="card">
       <div className="img-container">
-        <img alt="ship" src={props.image} />
+        {props.image.map((ship, i) => {
+          return (
+            <img 
+              src={ship.image}
+              alt="ship" 
+              key={i}
+              onClick={() => props.shipClick(ship.id)} />
+          )
+          })
+        }
       </div>
     </div>
   );
