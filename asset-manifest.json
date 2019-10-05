@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ahoy/static/css/main.2f22dab1.chunk.css",
+    "main.js": "/ahoy/static/js/main.3ccc07c1.chunk.js",
+    "main.js.map": "/ahoy/static/js/main.3ccc07c1.chunk.js.map",
+    "runtime-main.js": "/ahoy/static/js/runtime-main.a66f5d3d.js",
+    "runtime-main.js.map": "/ahoy/static/js/runtime-main.a66f5d3d.js.map",
+    "static/js/2.6671482d.chunk.js": "/ahoy/static/js/2.6671482d.chunk.js",
+    "static/js/2.6671482d.chunk.js.map": "/ahoy/static/js/2.6671482d.chunk.js.map",
+    "index.html": "/ahoy/index.html",
+    "precache-manifest.0070cc4145d07e1c553eceb3f46d4ba2.js": "/ahoy/precache-manifest.0070cc4145d07e1c553eceb3f46d4ba2.js",
+    "service-worker.js": "/ahoy/service-worker.js",
+    "static/css/main.2f22dab1.chunk.css.map": "/ahoy/static/css/main.2f22dab1.chunk.css.map"
+  }
+}
