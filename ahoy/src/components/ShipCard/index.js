@@ -11,7 +11,10 @@ function ShipCard(props) {
               src={ship.image}
               alt="ship" 
               key={i}
-              onClick={() => props.shipClick(ship.id)} />
+              onClick={() => {
+                props.shipClick(ship.id)
+              }}
+            />
           )
           })
         }
