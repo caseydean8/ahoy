@@ -58,13 +58,17 @@ class App extends Component {
   }
 
   incrementScore = () => {
-    this.setState({ currentScore: this.state.currentScore + 1 })
+    this.setState({ score: this.state.score + 1 })
   }
 
   render() {
     return (
       <div className="container">
-        <Jumbotron />
+        <Jumbotron 
+        banner={ this.state.banner }
+        score={ this.state.score }
+        highScore={ this.state.highScore }
+        />
         <Wrapper>
           <ShipCard
           shipClick={this.shipClick}
