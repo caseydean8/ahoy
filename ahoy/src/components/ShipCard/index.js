@@ -7,10 +7,10 @@ function ShipCard(props) {
       {props.image.map((ship, i) => {
         return (
           <div className="image-holder">
-            <img
+            <div
               className="ship-img"
-              src={ship.image}
               alt="ship"
+              style={{ backgroundImage: `url(${ship.image})` }}
               key={i}
               onClick={() => {
                 props.shipClick(ship.id);

@@ -6,17 +6,20 @@
   }
   
 .ship-img {
-    height: auto;
-    max-height: 100%;
-    width: auto;
-    max-width: 100%;
+    height: 374px;
+    width: 231px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
 }
 
 .image-holder {
     display: grid;
+    height: 418px;
     border: 2px solid #444;
-    color: #fff;
     border-radius: 5px;
     padding: 20px;
     align-items: center;
+    justify-items: center;
 }
