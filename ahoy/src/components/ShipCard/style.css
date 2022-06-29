@@ -1,21 +1,15 @@
-body {
-    /* margin: 40px; */
-}
 .wrapper {
     display: grid;
     grid-gap: 5px;
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     background-color: #fff;
-    /* align-items: center; */
-    /* color: #444; */
   }
-  
   
 .ship-img {
     height: auto;
-    /* max-height: 385px; */
+    max-height: 100%;
     width: auto;
-    max-width: 355px;
+    max-width: 100%;
 }
 
 .image-holder {
