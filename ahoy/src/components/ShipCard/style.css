@@ -1,0 +1,28 @@
+body {
+    /* margin: 40px; */
+}
+.wrapper {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    background-color: #fff;
+    /* align-items: center; */
+    /* color: #444; */
+  }
+  
+  
+.ship-img {
+    height: auto;
+    /* max-height: 385px; */
+    width: auto;
+    max-width: 355px;
+}
+
+.image-holder {
+    display: grid;
+    border: 2px solid #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    align-items: center;
+}

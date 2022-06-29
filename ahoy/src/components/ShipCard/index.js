@@ -1,24 +1,24 @@
 import React from "react";
-// import "./style.css";
+import "./style.css";
 
 function ShipCard(props) {
   return (
-    <div className="card">
-      <div className="img-container">
-        {props.image.map((ship, i) => {
-          return (
-            <img 
+    <div className="wrapper">
+      {props.image.map((ship, i) => {
+        return (
+          <div className="image-holder">
+            <img
+              className="ship-img"
               src={ship.image}
-              alt="ship" 
+              alt="ship"
               key={i}
               onClick={() => {
-                props.shipClick(ship.id)
+                props.shipClick(ship.id);
               }}
             />
-          )
-          })
-        }
-      </div>
+          </div>
+        );
+      })}
     </div>
   );
 }
