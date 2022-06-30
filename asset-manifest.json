@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ahoy/static/css/main.cbf20966.chunk.css",
-    "main.js": "/ahoy/static/js/main.9f842f10.chunk.js",
-    "main.js.map": "/ahoy/static/js/main.9f842f10.chunk.js.map",
+    "main.css": "/ahoy/static/css/main.f90a4768.chunk.css",
+    "main.js": "/ahoy/static/js/main.d70424f6.chunk.js",
+    "main.js.map": "/ahoy/static/js/main.d70424f6.chunk.js.map",
     "runtime-main.js": "/ahoy/static/js/runtime-main.a66f5d3d.js",
     "runtime-main.js.map": "/ahoy/static/js/runtime-main.a66f5d3d.js.map",
     "static/js/2.6671482d.chunk.js": "/ahoy/static/js/2.6671482d.chunk.js",
     "static/js/2.6671482d.chunk.js.map": "/ahoy/static/js/2.6671482d.chunk.js.map",
     "index.html": "/ahoy/index.html",
-    "precache-manifest.d78aec007f18ac3c0e87a197faf109f1.js": "/ahoy/precache-manifest.d78aec007f18ac3c0e87a197faf109f1.js",
+    "precache-manifest.e45e341e38b9da1a8422d264ef66e8af.js": "/ahoy/precache-manifest.e45e341e38b9da1a8422d264ef66e8af.js",
     "service-worker.js": "/ahoy/service-worker.js",
-    "static/css/main.cbf20966.chunk.css.map": "/ahoy/static/css/main.cbf20966.chunk.css.map"
+    "static/css/main.f90a4768.chunk.css.map": "/ahoy/static/css/main.f90a4768.chunk.css.map"
   }
 }
