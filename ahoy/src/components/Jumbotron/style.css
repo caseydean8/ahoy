@@ -1,16 +1,8 @@
 .jumbotron {
     font-family: 'Work Sans', sans-serif;
+    margin-bottom: 0.9375rem;
 }
 
 h1 {
     font-family: 'Pacifico', cursive;
-}
-
-.banner, .scores {
-    text-align: center;
-    margin: 1%;
-}
-
-.score, .high-score {
-    width: 50%;
 }

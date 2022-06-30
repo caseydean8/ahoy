@@ -1,12 +1,12 @@
 import React from "react";
 import "./style.css";
 
-function ShipCard(props) {
+function ShipContainer(props) {
   return (
     <div className="wrapper">
       {props.image.map((ship, i) => {
         return (
-          <div className="image-holder">
+          <div className="image-holder" key={i}>
             <div
               className="ship-img"
               alt="ship"
@@ -23,4 +23,4 @@ function ShipCard(props) {
   );
 }
 
-export default ShipCard;
+export default ShipContainer;

@@ -4,16 +4,15 @@ import "./style.css";
 function Jumbotron(props) {
   return (
     <div className="jumbotron text-center">
-      <h1>Ahoy</h1>
-      <div className="banner">
-          <h3>{ props.banner }</h3>
-      </div>
+      <h1>React Ahoy!</h1>
+      <h4>Tap a ship to play</h4>
+      <h4>Don't tap the same ship twice</h4>
       <div className="row scores">
-        <div className="column score">
-          <h3>Score: { props.score }</h3>
+        <div className="col-sm-6">
+          <h3>Score: {props.score}</h3>
         </div>
-        <div className="column high-score">
-          <h3>High Score: { props.highScore }</h3>
+        <div className="col-sm-6">
+          <h3>High Score: {props.highScore}</h3>
         </div>
       </div>
     </div>

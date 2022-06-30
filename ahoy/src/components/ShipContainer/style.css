@@ -1,7 +1,7 @@
 .wrapper {
     display: grid;
     grid-gap: 5px;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(274px, 1fr));
     background-color: #fff;
   }
   
@@ -19,7 +19,6 @@
     height: 418px;
     border: 2px solid #444;
     border-radius: 5px;
-    padding: 20px;
     align-items: center;
     justify-items: center;
 }
